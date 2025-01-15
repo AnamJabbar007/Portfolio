@@ -12,7 +12,8 @@ const tailwindConfig = {
         foreground: "var(--foreground)",
         bgColor: "#18181B",
         textColor:"#EDEDED",
-        btnColor: "#262629"
+        btnColor: "#262629",
+        lightgray:"#A0A0A0",
       },
       
     },

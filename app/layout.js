@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
      <body
-  className={`bg-[url('/gradientBg.svg')] bg-[-z-1] bg-[length:300%] bg-top bg-no-repeat min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased overflow-auto`}
+  className={`bg-[url('/gradientBg.svg')] bg-[-z-1] bg-[length:300%] bg-top bg-no-repeat min-h-screen ${geistSans.className} ${geistMono.variable} antialiased overflow-auto`}
 >
   <div className="relative z-50">
 <Navbar />

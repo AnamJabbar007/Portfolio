@@ -8,7 +8,9 @@ const page = () => {
     <div className=''>
     
       <Profile/>
+      <div >
       <Grid/>
+      </div>
       
     </div>
   )

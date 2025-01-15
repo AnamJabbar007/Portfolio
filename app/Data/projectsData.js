@@ -5,7 +5,7 @@ export const projects = [
     description: "A classic Snake Game implemented using Next.js.",
     techStack: ["Next.js", "Tailwind CSS"],
     link: "https://code-blog-mpvh.vercel.app/",
-    image: "/codeBlog.png",
+    image: "/codeBlog2.png",
   },
     {
       id: 2,
@@ -13,7 +13,7 @@ export const projects = [
       description: "A web app to search books using the Google Books API.",
       techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
       link: "",
-      image: "/Portfolio.png",
+      image: "/Portfolio2.png",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ export const projects = [
       description: "A web app to search books using the Google Books API.",
       techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
       link: "https://black-white-ten.vercel.app/",
-      image: "/Venzo.png",
+      image: "/Venzo2.png",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ export const projects = [
       description: "A web app to search books using the Google Books API.",
       techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
       link: "https://book-dcdc9z1vw-anamjabbar007s-projects.vercel.app/",
-      image: "/Bookweb.png",
+      image: "/Bookweb2.png",
     },
    
    
@@ -39,7 +39,7 @@ export const projects = [
         description: "A classic Snake Game implemented using Next.js.",
         techStack: ["Next.js", "Tailwind CSS"],
         link: "https://chili-studio.vercel.app/",
-        image: "/ChiliStudio.png",
+        image: "/ChiliStudio2.png",
       },
       {
         id: 6,
@@ -47,7 +47,7 @@ export const projects = [
         description: "My personal portfolio showcasing my work and skills.",
         techStack: ["Next.js", "Tailwind CSS"],
         link: "https://web3-0-eight.vercel.app/",
-        image: "/WebUi.png",
+        image: "/WebUi2.png",
       },
       {
         id: 7,
@@ -55,7 +55,7 @@ export const projects = [
         description: "My personal portfolio showcasing my work and skills.",
         techStack: ["Next.js", "Tailwind CSS"],
         link: "https://hoo-bank-clone-eta.vercel.app/",
-        image: "/HooBank.png",
+        image: "/HooBank2.png",
       },
       {
         id: 8,
@@ -63,7 +63,7 @@ export const projects = [
         description: "A classic Snake Game implemented using Next.js.",
         techStack: ["Next.js", "Tailwind CSS"],
         link: "https://virtual-r-ivory-ten.vercel.app/",
-        image: "/VR.png",
+        image: "/VR2.png",
       },
   ];
   
