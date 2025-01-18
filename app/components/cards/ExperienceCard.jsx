@@ -28,7 +28,7 @@ const ExperienceCard = () => {
           </div>
           {/* Description */}
           <p className="text-sm pl-10 font-light text-lightgray">
-            A blog page made with Next.js and Tailwind CSS.
+          A responsive blog platform built with Next.js and Tailwind CSS. Learned dynamic routing and SSR.
           </p>
         </div>
         <div className="mt-3">
@@ -43,7 +43,7 @@ const ExperienceCard = () => {
           </div>
           {/* Description */}
           <p className="text-sm pl-10 font-light text-lightgray">
-            A blog page made with Next.js and Tailwind CSS.
+          Interactive portfolio with animations using GSAP and Tailwind CSS.
           </p>
         </div>
         <div className="mt-3">
@@ -58,13 +58,13 @@ const ExperienceCard = () => {
           </div>
           {/* Description */}
           <p className="text-sm pl-10 font-light text-lightgray">
-            A blog page made with Next.js and Tailwind CSS.
+          A book search app using Google Books API and Tailwind CSS. Focused on API integration.
           </p>
         </div>
         <div className="mt-3">
           <div className="flex gap-2 items-center">
             {/* Icon/Logo Placeholder */}
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-gray-400 to-red-400  flex items-center justify-center text-white font-bold">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-black to-blue-950  flex items-center justify-center text-white font-bold">
               PP
             </div>
 
@@ -73,22 +73,22 @@ const ExperienceCard = () => {
           </div>
           {/* Description */}
           <p className="text-sm pl-10 font-light text-lightgray">
-            A blog page made with Next.js and Tailwind CSS.
+          A modern, responsive portfolio showcasing skills, built with Next.js and Tailwind CSS.
           </p>
         </div>
         <div className="mt-3">
           <div className="flex gap-2 items-center">
             {/* Icon/Logo Placeholder */}
-            <div className="w-8 h-8 rounded-lg bg-black flex items-center justify-center text-white font-bold">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-bl from-red-900 to-orange-00 flex items-center justify-center text-white font-bold">
               CB
             </div>
 
             {/* Title */}
-            <h5 className="text-base font-medium">CodeBlog</h5>
+            <h5 className="text-base font-medium">Chili Studio</h5>
           </div>
           {/* Description */}
           <p className="text-sm pl-10 font-light text-lightgray">
-            A blog page made with Next.js and Tailwind CSS.
+          A sleek, responsive site built with Vite Js and Tailwind CSS, featuring smooth animations with GSAP and clean design.
           </p>
         </div>
       </div>
