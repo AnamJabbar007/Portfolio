@@ -25,10 +25,11 @@ export default function RootLayout({ children }) {
      <body
   className={`bg-[url('/gradientBg.svg')] bg-[-z-1] bg-[length:300%] bg-top bg-no-repeat min-h-screen ${geistSans.className} ${geistMono.variable} antialiased overflow-auto`}
 >
-  <div className="relative z-50">
-<Navbar />
+  <><div className="relative z-50">
+<Navbar/>
 </div>
-  <div className="relative">{children}</div>
+  <div className="relative">{children}</div></>
+  
  
 </body>
 

@@ -1,10 +1,6 @@
 import Image from "next/image";
 import Avatar from "@/public/Avatar.png";
-import { FiGithub } from "react-icons/fi";
-import { IoLogoInstagram } from "react-icons/io5";
-import { LuLinkedin } from "react-icons/lu";
-import { RiFileList3Line } from "react-icons/ri";
-import { FiMail } from "react-icons/fi";
+import { socialLinks } from '@/app/constants/Index'; // Adjust the path as needed
 
 export const Profile = () => {
   return (
@@ -31,13 +27,27 @@ export const Profile = () => {
           </p>
         </div>
 
-        {/* Icons */}
+        {/* Icons with Hover Effect and Links */}
         <div className="flex flex-row gap-6 mt-8">
-          <IoLogoInstagram className="text-gray-400 lg:w-6 lg:h-6 md:w-5 md:h-5 sm:w-5 sm:h-5 w-5 h-5" />
-          <FiGithub className="text-gray-400 lg:w-6 lg:h-6 md:w-5 md:h-5 sm:w-5 sm:h-5 w-5 h-5" />
-          <LuLinkedin className="text-gray-400 lg:w-6 lg:h-6 md:w-5 md:h-5 sm:w-5 sm:h-5 w-5 h-5" />
-          <RiFileList3Line className="text-gray-400 lg:w-6 lg:h-6 md:w-5 md:h-5 sm:w-5 sm:h-5 w-5 h-5" />
-          <FiMail className="text-gray-400 lg:w-6 lg:h-6 md:w-5 md:h-5 sm:w-5 sm:h-5 w-5 h-5" />
+          {socialLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group text-gray-400 lg:w-6 lg:h-6 md:w-5 md:h-5 sm:w-5 sm:h-5 w-5 h-5"
+            >
+              {/* Default State */}
+              <div className="absolute inset-0 text-2xl flex justify-center items-center group-hover:opacity-0 transition-opacity duration-300">
+                {link.icon}
+              </div>
+
+              {/* Hover State */}
+              <div className="absolute text-white text-lg cursor-pointer inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {link.hoverIcon}
+              </div>
+            </a>
+          ))}
         </div>
       </div>
     </section>
